@@ -1,0 +1,56 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+html{
+  width: 1496px;  
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  width: 1496px;
+}
+
+.header {
+  height: 80px;
+  margin: 1px 0 0 0;
+  background-color: #ffffff;
+  border: 1px solid #D5D5D5;
+  display: flex;
+}
+.logo {
+  width: 209px;
+  height: 40px;
+  margin: 20px 100px 20px 20px;
+}
+
+.qaz{
+  margin: 20px 0;
+  font-size: 32px;
+}
+
+.anke{
+  margin: 0 200px;
+  font-size: 24px;
+  display: flex;
+}
+.kon{
+  margin: 25px 200px;
+  font-size: 24px;
+}
+.lo{
+  font-size: 24px;
+}
+.content__but__card{
+  margin: 5px 200px;
+  width: 254px;
+  height: 56px;
+  padding: 10px;
+  background-color: #00BEF0;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.content__but__card:hover{
+  background-color: #0aceff;
+}

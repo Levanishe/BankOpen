@@ -1,0 +1,186 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+html{
+  width: 1496px;  
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  width: 1496px;
+}
+
+.header {
+  height: 80px;
+  margin: 1px 0 0 0;
+  background-color: #ffffff;
+  border: 1px solid #D5D5D5;
+  display: flex;
+}
+.logo {
+  width: 209px;
+  height: 40px;
+  margin: 20px 100px 20px 20px;
+}
+.header__center {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 29px 0px;
+}
+.header__center__element {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0px 30px;
+}
+
+.banner{
+  position: relative;
+}
+.banner__img{
+  height: 415px;
+}
+.banner .banner__but__card{
+  position: absolute;
+  top: 70%;
+  left: 13%;
+  width: 254px;
+  height: 56px;
+  padding: 10px;
+  background-color: #00BEF0;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.banner .banner__but__card:hover{
+  background-color: #0aceff;
+}
+
+.fon__bank__lych{
+  width: 1496px;
+  height: 649px;
+  background-color: #F2F6F9;
+}
+.bank__lych{
+  padding: 50px 223px 100px 223px;
+  width: 1050px;
+  height: 500px;
+}
+.bykvi__bank{
+  font-size: 32px;
+}
+.twoblok{
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.blok__left{
+  margin: 0 25px 0 0;
+  width: 500px;
+  height: 410px;
+}
+.blok__right{
+  margin: 0  0 0 25px;
+  width: 500px;
+  height: 410px;
+}
+.blok__left{
+  position: relative;
+}
+.blok__left__img{
+  height: 415px;
+}
+.blok__left .blok__left__but__mortgage{
+  position: absolute;
+  top: 78.8%;
+  left: 6.5%;
+  width: 254px;
+  height: 56px;
+  padding: 10px;
+  background-color: #00BEF0;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.blok__left .blok__left__but__mortgage:hover{
+  background-color: #0aceff;
+}
+.blok__right{
+  position: relative;
+}
+.blok__right__img{
+  height: 415px;
+}
+.blok__right .blok__right__but__credit{
+  position: absolute;
+  top: 80%;
+  left: 6.4%;
+  width: 254px;
+  height: 56px;
+  padding: 10px;
+  background-color: #00BEF0;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.blok__right .blok__right__but__credit:hover{
+  background-color: #0aceff;
+}
+
+.gde__bank{  
+  margin: 75px 10px 0 50px;
+  position: relative;
+}
+.gde__bank__img{
+  width: 1400px;
+  height: 576px;
+}
+.proga__img{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.gde__bank__but__proga{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.gde__bank .gde__bank__but__proga{
+  position: absolute;
+  top: 51%;
+  left: 6.45%;
+  width: 445px;
+  height: 70px;
+  padding: 10px;
+  background-color: #00BEF0;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.gde__bank .gde__bank__but__proga:hover{
+  background-color: #0aceff;
+}
+
+.kyrs{
+  position: relative;
+}
+.kyrs__img{
+  margin: 50px 50px; 
+}
+.kyrs .kyrs__but__lin{
+  position: absolute;
+  top: 80.7%;
+  left: 52.805%;
+  width: 313px;
+  height: 70px;
+  padding: 10px;
+  background-color: #00BEF0;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.kyrs .kyrs__but__lin:hover{
+  background-color: #0aceff;
+}

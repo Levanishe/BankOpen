@@ -1,0 +1,75 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+html{
+  width: 1496px;  
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  width: 1496px;
+}
+
+.header {
+  height: 80px;
+  margin: 1px 0 0 0;
+  background-color: #ffffff;
+  border: 1px solid #D5D5D5;
+  display: flex;
+}
+.logo {
+  width: 209px;
+  height: 40px;
+  margin: 20px 100px 20px 20px;
+}
+.header__center {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 29px 0px;
+}
+.header__center__element {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0px 30px;
+}
+
+.opencard{
+  margin: 50px;
+  position: relative;
+}
+.opencard .opencard__but{
+  position: absolute;
+  top: 72.7%;
+  left: 36.5%;
+  width: 265px;
+  height: 76px;
+  padding: 10px;
+  background-color: #00BEF0;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.opencard .opencard__but:hover{
+  background-color: #0aceff;
+}
+.opencardstik{
+  margin: 50px;
+  position: relative;
+}
+.opencardstik .opencardstik__but{
+  position: absolute;
+  top: 74.05%;
+  left: 35.25%;
+  width: 250px;
+  height: 70px;
+  padding: 10px;
+  background-color: #00BEF0;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.opencardstik .opencardstik__but:hover{
+  background-color: #0aceff;
+}
